@@ -1,11 +1,11 @@
 # Yeoman Angular + Express Server 
 
 Two separate generators used to scaffold this project:
-/client => created with yeoman using '$ yo angular'
-/server => created by running '$ express'
+> /client => created with yeoman using '$ yo angular'
+> /server => created by running '$ express'
 
 express server for TEST / PROD:
-http://localhost:3000
+* http://localhost:3000
 
 grunt server for front end asset watch. 
 You really only need this to verify the front end server is recompiling assets as they change:
@@ -14,8 +14,10 @@ http://localhost:9000
 The express server can be run in develop or deploy environments 
 from the '/server' directory:
 ```
-$ npm test  		# express will serve angular app from the /client folder
-$ npm start  		# express will serve the compiled angular app from the /server/dist folder
+$ npm test  		# express will serve angular app from /client
+```
+```
+$ npm start  		# express will serve the compiled angular app from /server/dist
 ```
 
 In TEST mode, you might also want the grunt webserver running the /client folder 
