@@ -36,7 +36,6 @@ angular
       });
   })
   .run( function($rootScope, $location) {
-    console.log('the fuck is going on with CSS?');
     // register listener to watch route changes
     if (!$rootScope.loggedUser) {
       console.log('send user to login form');

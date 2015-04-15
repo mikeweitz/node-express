@@ -20,10 +20,13 @@ $ npm test  		# express will serve angular app from /client
 $ npm start  		# express will serve the compiled angular app from /server/dist
 ```
 
-In TEST mode, you might also want the grunt webserver running the /client folder 
-to keep an eye on sass files, etc... run the following in '/client'   
+In TEST mode, there's two tasks available to keep the angular app current with 
+any changes you make.  In the /client folder 
 ```
 $ grunt serve
+```
+```
+$ grunt watch
 ```
 
 ### Local Development
