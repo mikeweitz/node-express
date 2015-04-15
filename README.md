@@ -13,13 +13,16 @@ http://localhost:9000
 
 The express server can be run in develop or deploy environments 
 from the '/server' directory:
+```
 $ npm test  		# express will serve angular app from the /client folder
 $ npm start  		# express will serve the compiled angular app from the /server/dist folder
+```
 
 In TEST mode, you might also want the grunt webserver running the /client folder 
 to keep an eye on sass files, etc... run the following in '/client' 
+```
 $ grunt serve
-
+```
 
 ### Local Development
 Build out your angular app using Yeoman scaffolding tools.
@@ -40,12 +43,16 @@ For a list of available commands, see:
 ### Styles
 If you just need to quickly compile the sass in the TEST environment, 
 in the '/client' folder, run
+```
 $ grunt styles
+```
 
 ### Build
 To run a full build process on the front end code, and copy files into 
 the '/server/dist' folder for deploy, from '/client' run
+```
 $ grunt
+```
 
 
 
